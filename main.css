@@ -1,0 +1,159 @@
+.textbox p {
+    text-align:justify;
+    font-family: ICT, sans-serif;
+}
+.textbox h2 {
+    color: #40556A;
+}
+.textbox h3 {
+    color: #40556A;
+}
+.textbox a {
+    color: #40556A;
+    text-align: center;
+}
+.textbox > a:not(:last-child) {
+    margin-right: 16px;
+}
+
+.textbox {
+    display: block;
+    flex: 0;
+    font-family: ICTbold, sans-serif;
+    font-size: 15px;
+    color: black;
+/*    border: 1px solid black;*/
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.content {
+    align-self: center;
+    width: 888px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    min-height: 500px;
+    overflow: auto;
+    margin: 0px auto 20px auto;
+}
+
+.companies {
+    flex-direction: row;
+    flex-flow: row wrap;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 128px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.company {
+    width: 256px;
+    height: 128px;
+    flex: 1;
+    border: 3px solid #d7dbe0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.companies2020 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.company2020 {
+    height: 200px;
+    width: 100%;
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.companylogo {
+    height: 180px;
+    width: 180px;
+    background-image: url(assets/images/logo-template.png);
+    flex: 200;
+    margin: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.companydesc {
+    height: 180px;
+    flex: 688;
+    margin: 5px;
+    text-align: justify;
+    font-family: ICT, sans-serif;
+    font-size: 16px;
+}
+
+@media(min-width: 769px){
+    .content {
+        min-height: 540px;
+        width: 888px;
+    }
+    .company {
+        height: 128px;
+    }
+    .companies {
+        height: 128px;
+    }
+    .companylogo {
+        display: flex;
+        margin: 20px;
+        flex: 200;
+        opacity: 1;
+    }
+    .companydesc {
+        flex: 688;
+    }
+    .companies2020 {
+        width: 100%;
+    }
+}
+@media(max-width: 768px){
+    .content {
+        min-height: 450px;
+        width: 96%;
+    }
+    .company {
+        height: 64px;
+    }
+    .companies {
+        height: 64px;
+    }
+    .companylogo {
+        position: relative;
+        left: 50%;
+        margin: 0px;
+        margin-left: -90px;  
+        top: 0px;
+        flex: 500;
+        opacity: 0.2;
+    }
+    .companydesc {
+        position: relative;
+        left: 0px; 
+        top: 0px;
+        margin: 20px;
+        left: -48px;
+    }
+    .companies2020 {
+        width: 100%;
+    }
+}
+
