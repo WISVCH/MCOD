@@ -1,3 +1,3 @@
-﻿FROM nginx:alpine
+FROM wisvch/nginx
 
-COPY . /usr/share/nginx/html
+COPY . /srv/
