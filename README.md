@@ -1,2 +1,0 @@
-# MCOD
-MCOD website
