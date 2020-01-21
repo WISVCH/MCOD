@@ -105,6 +105,15 @@
 .companyreadmore {
     text-align: left;
 }
+.informationsign {
+    position: relative;
+    left:5px;
+    top:5px;
+    height:20px;
+    width:20px;
+    background-image: url(assets/images/information.jpg);
+    background-size: contain;
+}
 
 @media(min-width: 769px){
     .content {
@@ -129,6 +138,9 @@
     .companies2020 {
         width: 100%;
     }  
+    .informationsign {
+        display: none;
+    }
 }
 @media(max-width: 768px){
     .content {
@@ -143,25 +155,19 @@
     }
     .companylogo {
         position: relative;
-        left: 50%;
         margin: 0px;
         transform: translateX(-50%);
         top: 0px;
         flex: 500;
-        opacity: 0.6;
+        opacity: 0.8;
+        left:50%;
+        border: 1px solid #bdc3c9;
     }
     .companydesc {
-        position: relative;
-        left: 0px; 
-        top: 0px;
-        margin: 20px;
-        left: -48px;
+        display:none;
     }
     .companies2020 {
         width: 100%;
-    }
-    .companyextract {
-        display: none;
     }
 }
 
