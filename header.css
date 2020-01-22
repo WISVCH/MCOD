@@ -44,7 +44,7 @@ html, body {
     margin-top: 16px;
 }
 
-@media(min-width: 769px){
+@media(min-aspect-ratio: 2/3){
     .banner {
         min-height: 100px;
     }
@@ -52,7 +52,7 @@ html, body {
         min-height:70px;
     }
 }
-@media(max-width: 768px){
+@media(max-aspect-ratio: 2/3){
     .bannertitle {
         font-size: 32px;
     }
@@ -100,7 +100,7 @@ a:hover {
     justify-content: center;
 }
 
-@media(max-width: 768px){
+@media(max-aspect-ratio: 2/3){
     .menu {
         display: none;
     }

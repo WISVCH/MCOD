@@ -115,7 +115,7 @@
     background-size: contain;
 }
 
-@media(min-width: 769px){
+@media(min-aspect-ratio: 2/3){
     .content {
         min-height: 540px;
         width: 888px;
@@ -142,7 +142,7 @@
         display: none;
     }
 }
-@media(max-width: 768px){
+@media(max-aspect-ratio: 2/3){
     .content {
         min-height: 450px;
         width: 96%;
