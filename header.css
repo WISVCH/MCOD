@@ -73,6 +73,7 @@ a:hover {
     background: #40556A;
     display: none;
     padding: 4px 16px;
+    min-height:35px;
 }
 .mobile-menu-items {
     display: none;
