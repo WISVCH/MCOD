@@ -22,6 +22,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100px;
 }
 .bannertitle {
     color: white;
@@ -45,9 +46,6 @@ html, body {
 }
 
 @media(min-aspect-ratio: 2/3){
-    .banner {
-        min-height: 100px;
-    }
     .logo {
         min-height:70px;
     }
@@ -98,6 +96,7 @@ a:hover {
     flex-basis: 50px;
     align-items: center;
     justify-content: center;
+    min-height: 50px;
 }
 
 @media(max-aspect-ratio: 2/3){
