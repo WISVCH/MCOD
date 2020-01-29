@@ -45,12 +45,12 @@ html, body {
     margin-top: 16px;
 }
 
-@media(min-aspect-ratio: 2/3){
+@media(min-width: 858px){
     .logo {
         min-height:70px;
     }
 }
-@media(max-aspect-ratio: 2/3){
+@media(max-width:857px){
     .bannertitle {
         font-size: 32px;
     }
@@ -100,7 +100,7 @@ a:hover {
     min-height: 50px;
 }
 
-@media(max-aspect-ratio: 2/3){
+@media(max-width:857px){
     .menu {
         display: none;
     }

@@ -53,7 +53,7 @@
     width: 256px;
     text-align: center;
 }
-@media(min-aspect-ratio: 2/3){
+@media(min-width: 858px){
     .footerbox {
         flex-direction: row;
         height: 188px;
@@ -63,7 +63,7 @@
         margin-bottom: 0px;
     }
 }
-@media(max-aspect-ratio: 2/3){
+@media(max-width: 857px){
     .footerbox {
         flex-direction: column;
         height: 296px;
