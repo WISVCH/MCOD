@@ -71,7 +71,7 @@
 }
 
 .company2020 {
-    height: 200px;
+    min-height: 180px;
     width: 100%;
     flex: 1;
     flex-direction: row;
