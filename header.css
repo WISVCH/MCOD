@@ -16,7 +16,7 @@ html, body {
 
 .banner {
     flex: 0;
-    background-image: url(assets/images/Website%20banner.jpg);
+    background-image: url(assets/images/Website_achtergrond.jpg);
     background-size: cover;
     padding: 16px;
     display: flex;
